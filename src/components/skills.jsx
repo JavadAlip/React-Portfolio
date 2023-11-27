@@ -17,7 +17,6 @@ import JWT from '../assets/jwt.png';
 import CANVA from '../assets/Canva1.png';
 import SOCKET from '../assets/Socketio.png';
 import VERCEL from '../assets/vercal.png'
-
 const Skills = () => {
     return (
         <div name='skills' >
@@ -117,11 +116,9 @@ const Skills = () => {
                             <img className='w-20 h-20 mx-auto' src={VERCEL} alt="" />
                         </div>
                     </a>
-
                 </div>
             </div>
         </div>
     )
 }
-
 export default Skills

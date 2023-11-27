@@ -1,7 +1,6 @@
 import React from 'react';
 import Pro1 from '../assets/Screenshot1.jpg';
 import Pro2 from '../assets/Screenshot2.jpg';
-
 const Projects = () => {
     return (
         <div name='projects' className='w-full md:h-screen'>
@@ -11,7 +10,6 @@ const Projects = () => {
                     <p className='mt-2'>Check out my recent projects</p>
                 </div>
                 <div className='grid gap-4 md:grid-cols-2 rounded-lg'>
-
                     <div>
                         <div style={{ backgroundImage: `url('${Pro1}')`, height: '205px', backgroundSize: 'contain', backgroundPosition: 'center' }} className='shadow-lg group shadow-[#808080] container rounded-md flex items-center mx-auto content-div justify-center'>
                             <div className='opacity-0 group-hover:opacity-100'>
@@ -19,19 +17,16 @@ const Projects = () => {
                                     e-commerce
                                 </span> */}
                                 <div className='pt-8 text-center'>
-                                <a href="https://github.com/JavadAlip/Menstyle">
+                                    <a href="https://github.com/JavadAlip/Menstyle">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
                                     </a>
                                     <a href="https://menstyle.online/">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
                                     </a>
-                                    
                                 </div>
-
                             </div>
                         </div>
                     </div>
-
                     <div>
                         <div style={{ backgroundImage: `url('${Pro2}')`, height: '205px', backgroundSize: 'contain', backgroundPosition: 'center' }} className='shadow-lg group shadow-[#808080] container rounded-md flex items-center mx-auto content-div justify-center'>
                             <div className='opacity-0 group-hover:opacity-100'>
@@ -39,7 +34,6 @@ const Projects = () => {
                                     Another Projectddddddd
                                 </span> */}
                                 <div className='pt-8 text-center'>
-                                    
                                     <a href="https://github.com/JavadAlip/mediplus">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
                                     </a>
@@ -50,11 +44,9 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     );
 };
-
 export default Projects;

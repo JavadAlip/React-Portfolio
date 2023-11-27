@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../assets/jvD.png';
 import { Link } from 'react-scroll';
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-
   return (
     <div
       className={`fixed top-0 w-full h-[80px] flex justify-between items-center px-4 bg-white text-black navbar ${
@@ -38,11 +36,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
       <div onClick={handleClick} className='md:hidden z-10 bg-white'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-
       <ul
         className={`${!nav ? 'hidden' : 'absolute top-[80px] left-0 w-full h-screen text-white bg-[#000000] flex flex-col items-center justify-center'
           }`}
@@ -71,5 +67,4 @@ const Navbar = () => {
     </div>
   );
 };
-
 export default Navbar;

@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import leetCodeIcon from '../assets/leetcode.png';
-
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen'>
@@ -12,7 +11,6 @@ const Home = () => {
           <h1 className='font-bold text-6xl '>Javad Ali</h1>
           <h2 className='font-bold text-6xl ' style={{ color: 'grey' }}>MERN Stack Developer.</h2>
           <p className='mb-4 max-w-[725px] '  style={{ color: 'grey' }}>A skilled full-stack developer with expertise in Node.js and React. Committed to delivering high-quality solutions, my work is fueled by a genuine passion for technology.</p>
-
           <a href="https://github.com/JavadAlip" target="_blank" rel="noopener noreferrer" className="mr-4">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
@@ -39,6 +37,5 @@ const Home = () => {
     </div>
   );
 }
-
 export default Home;
 

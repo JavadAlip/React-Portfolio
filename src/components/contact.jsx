@@ -1,10 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
-
 const Contact = () => {
     const emailAddress = 'javadalipp911@gmail.com';
-
     return (
         <div name='contact' className='w-full h-[200px]'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full px-8 justify-center'>
@@ -29,5 +27,4 @@ const Contact = () => {
         </div>
     );
 };
-
 export default Contact;
