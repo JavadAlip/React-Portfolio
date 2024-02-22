@@ -20,7 +20,7 @@ const Projects = () => {
                                     <a href="https://github.com/JavadAlip/Menstyle">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
                                     </a>
-                                    <a href="https://menstyle.online/">
+                                    <a href="http://ecommerce.menstyle.online">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
                                     </a>
                                 </div>
