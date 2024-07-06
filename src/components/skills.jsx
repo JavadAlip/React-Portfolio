@@ -6,7 +6,7 @@ import NODE from '../assets/node.png';
 import MONGO from '../assets/mongo.png';
 import REACT from '../assets/react.png';
 import TAILWIND from '../assets/tailwind.jpg';
-import FIREBASE from '../assets/firebase1.png';
+import STRIPE from '../assets/stripe.png';
 import POSTMAN from '../assets/postman.png';
 import GIT from '../assets/git.png';
 import FIGMA from '../assets/figma.jpg';
@@ -19,7 +19,7 @@ import SOCKET from '../assets/Socketio.png';
 import VERCEL from '../assets/vercal.png'
 const Skills = () => {
     return (
-        <div name='skills' >
+        <div name='skills' className='mt-16 sm:mt-0'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full px-8 justify-center'>
                 <div>
                     <p className='text-2xl inline border-b-4  font-bold '>Skills</p>
@@ -61,9 +61,9 @@ const Skills = () => {
                             <img className='w-20 mx-auto' src={MONGO} alt="" />
                         </div>
                     </a>
-                    <a href="https://firebase.google.com/" >
+                    <a href="https://stripe.com/in" >
                         <div className='shadow-md shadow-[#808080] hover:scale-110 duration-500 rounded-lg'>
-                            <img className='w-20 h-20 mx-auto' src={FIREBASE} alt="" />
+                            <img className='w-20 h-20 mx-auto' src={STRIPE} alt="" />
                         </div>
                     </a>
                     <a href="https://tailwindcss.com" >

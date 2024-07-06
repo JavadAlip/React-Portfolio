@@ -4,7 +4,7 @@ import { faEnvelope, faArrowCircleUp } from '@fortawesome/free-solid-svg-icons';
 const Contact = () => {
     const emailAddress = 'javadalipp911@gmail.com';
     return (
-        <div name='contact' className='w-full h-[200px]'>
+        <div name='contact' className='w-full h-[200px] mt-16 sm:mt-0'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full px-8 justify-center'>
                 <div>
                     <p className='text-2xl inline font-bold border-b-4 rounded'>

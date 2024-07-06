@@ -1,9 +1,9 @@
 import React from 'react';
-import Pro1 from '../assets/Screenshot1.jpg';
+import Pro1 from '../assets/Careclub-banner.png';
 import Pro2 from '../assets/Screenshot2.jpg';
 const Projects = () => {
     return (
-        <div name='projects' className='w-full md:h-screen'>
+        <div name='projects' className='w-full md:h-screen mt-16 sm:mt-0'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full p-4 justify-center'>
                 <div className='pb-8'>
                     <p className='text-2xl inline border-b-4 font-bold'>Projects</p>
@@ -17,10 +17,10 @@ const Projects = () => {
                                     e-commerce
                                 </span> */}
                                 <div className='pt-8 text-center'>
-                                    <a href="https://github.com/JavadAlip/Menstyle">
+                                    <a href="https://github.com/JavadAlip/CareClub">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
                                     </a>
-                                    <a href="http://ecommerce.menstyle.online">
+                                    <a href="https://careclub.vercel.app/">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
                                     </a>
                                 </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                                     <a href="https://github.com/JavadAlip/mediplus">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
                                     </a>
-                                    <a href="">
+                                    <a href="https://mediplus-booking.vercel.app/">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
                                     </a>
                                 </div>
