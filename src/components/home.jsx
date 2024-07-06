@@ -8,7 +8,7 @@ const Home = () => {
       <div className='max-w-[1000px] items-center h-full flex flex-col mx-auto px-8 justify-center'>
         <div>
           <p className='text-4xl '>Hi, I am</p>
-          <h1 className='font-bold text-6xl '>Javad Ali</h1>
+          <h1 className='font-bold text-6xl '>Javad Ali P</h1>
           <h2 className='font-bold text-6xl ' style={{ color: 'grey' }}>MERN Stack Developer.</h2>
           <p className='mb-4 max-w-[725px] '  style={{ color: 'grey' }}>A skilled full-stack developer with expertise in Node.js and React. Committed to delivering high-quality solutions, my work is fueled by a genuine passion for technology.</p>
           <a href="https://github.com/JavadAlip" target="_blank" rel="noopener noreferrer" className="mr-4">
