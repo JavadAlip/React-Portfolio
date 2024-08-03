@@ -22,7 +22,7 @@ const Skills = () => {
         <div name='skills' className='mt-16 sm:mt-0'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full px-8 justify-center'>
                 <div>
-                    <p className='text-2xl inline border-b-4  font-bold '>Skills</p>
+                    <p className='text-2xl inline border-b-4 hover:text-gray-400 font-bold '>Skills</p>
                     <p className='mt-2'>These are technologys I've worked with</p>
                 </div>
                 <div className='w-full grid grid-cols-3 sm:grid-cols-6 text-center gap-4 py-8'>
