@@ -18,10 +18,10 @@ const Projects = () => {
                                 </span> */}
                                 <div className='pt-8 text-center'>
                                     <a href="https://github.com/JavadAlip/CareClub">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Code</button>
                                     </a>
                                     <a href="https://careclub.vercel.app/">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Live</button>
                                     </a>
                                 </div>
                             </div>
@@ -35,10 +35,10 @@ const Projects = () => {
                                 </span> */}
                                 <div className='pt-8 text-center'>
                                     <a href="https://github.com/JavadAlip/mediplus">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Code</button>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Code</button>
                                     </a>
                                     <a href="https://mediplus-booking.vercel.app/">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-400 font-bold text-md hover:bg-gray-100'>Live</button>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Live</button>
                                     </a>
                                 </div>
                             </div>

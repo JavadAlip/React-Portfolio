@@ -7,32 +7,46 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div
-      className={`fixed top-0 w-full h-[80px] flex justify-between items-center px-4 bg-white text-black navbar ${
-        nav ? 'bg-[#000000] transition-bg' : 'transition-bg'
-      }`}
+      className={`fixed top-0 w-full h-[80px] flex justify-between items-center px-4 bg-white text-black navbar ${nav ? 'bg-[#000000] transition-bg' : 'transition-bg'
+        }`}
     >
       <Link to='home'>
-      <img src={logo} alt="" style={{ width: '120px', height: '80px', cursor: 'pointer'}} />
+        <img src={logo} alt="" style={{ width: '120px', height: '80px', cursor: 'pointer' }} />
       </Link>
       <div className='md:flex hidden flex-grow justify-end'>
         <ul className='flex space-x-4'>
           <li>
-            <Link to="home" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+            <Link to="home" smooth={true}
+              duration={500}
+              className='block py-2 px-4 rounded-lg m-2 cursor-pointer text-black text-md hover:text-gray-400 transition-colors'
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+            <Link to="skills" smooth={true}
+              duration={500}
+              className='block py-2 px-4 rounded-lg m-2 cursor-pointer text-black text-md hover:text-gray-400 transition-colors'
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className='block py-2 px-4 rounded-lg m-2 cursor-pointer text-black text-md hover:text-gray-400 transition-colors'
+            >
               Projects
             </Link>
+
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500} style={{ cursor: 'pointer' }}>
+            <Link to="contact" smooth={true}
+              duration={500}
+              className='block py-2 px-4 rounded-lg m-2 cursor-pointer text-black text-md hover:text-gray-400 transition-colors'
+            >
               Contact
             </Link>
           </li>

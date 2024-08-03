@@ -8,10 +8,10 @@ const Home = () => {
     <div name='home' className='w-full h-screen flex items-center justify-center'>
       <div className='max-w-[1000px] w-full px-8 flex flex-col justify-center h-full'>
         <div className='mt-auto md:mt-0'>
-          <p className='text-4xl'>Hi, I am</p>
-          <h1 className='font-bold text-6xl'>Javad Ali</h1>
-          <h2 className='font-bold text-6xl text-gray-600'>MERN Stack Developer.</h2>
-          <p className='mb-4 max-w-[725px] text-gray-600'>
+          <p className='text-4xl  text-gray-400'>Hi, I am</p>
+          <h1 className='font-bold text-6xl  text-gray-400'>Javad Ali</h1>
+          <h2 className='font-bold text-6xl'>MERN Stack Developer.</h2>
+          <p className='mb-4 max-w-[725px]'>
             A skilled full-stack developer with expertise in Node.js and React. Committed to delivering high-quality solutions, my work is fueled by a genuine passion for technology.
           </p>
           <div className='flex'>
