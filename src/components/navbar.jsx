@@ -14,7 +14,7 @@ const Navbar = () => {
         <img src={logo} alt="" style={{ width: '120px', height: '80px', cursor: 'pointer' }} />
       </Link>
       <div className='md:flex hidden flex-grow justify-end'>
-        <ul className='flex space-x-4'>
+        <ul className='flex'>
           <li>
             <Link to="home" smooth={true}
               duration={500}
