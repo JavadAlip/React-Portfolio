@@ -1,6 +1,6 @@
 import React from 'react';
 import Pro1 from '../assets/Mediplus-Banner.jpg';
-import Pro2 from '../assets/Careclub-Banner.png';
+import Pro2 from '../assets/CareClub-Banner.png';
 import Pro3 from '../assets/DigitalVisit-Banner.png';
 import Pro4 from '../assets/Menstyle-Banner.jpg';
 const Projects = () => {
@@ -60,9 +60,6 @@ const Projects = () => {
                                 <div className='pt-8 text-center'>
                                     <a href="https://github.com/JavadAlip/Menstyle">
                                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Code</button>
-                                    </a>
-                                    <a href="">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-100 text-black font-bold text-md hover:bg-gray-300 transition-colors'>Live</button>
                                     </a>
                                 </div>
                             </div>
