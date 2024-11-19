@@ -1,6 +1,6 @@
 import React from 'react';
 import Pro1 from '../assets/Mediplus-Banner.jpg';
-import Pro2 from '../assets/Mediplus-Banner.jpg';
+import Pro2 from '../assets/Pro2.png';
 import Pro3 from '../assets/DigitalVisit-Banner.png';
 import Pro4 from '../assets/Menstyle-Banner.jpg';
 const Projects = () => {
