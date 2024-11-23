@@ -9,7 +9,7 @@ const Home = () => {
         <div className='mt-auto md:mt-0'>
           <p className='text-4xl text-gray-400'>Hi, I am</p>
           <h1 className='font-bold text-6xl text-gray-400'>Javad Ali</h1>
-          <h2 className='font-bold text-6xl'>MERN Stack Developer</h2>
+          <h2 className='font-bold text-6xl mb-4'>MERN Stack Developer</h2>
           <p className='mb-4 max-w-[725px]'>
           A skilled full-stack developer with expertise in Node.js & React, dedicated to delivering robust, high-quality solutions that are driven by a passion for innovation & technology.
           </p>
