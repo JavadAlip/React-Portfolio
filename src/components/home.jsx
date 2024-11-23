@@ -11,7 +11,7 @@ const Home = () => {
           <h1 className='font-bold text-6xl text-gray-400'>Javad Ali</h1>
           <h2 className='font-bold text-6xl'>MERN Stack Developer</h2>
           <p className='mb-4 max-w-[725px]'>
-          A skilled full-stack developer with expertise in Node.js and React, dedicated to delivering robust, high-quality solutions that are driven by a passion for innovation and technolgy.
+          A skilled full-stack developer with expertise in Node.js & React, dedicated to delivering robust, high-quality solutions that are driven by a passion for innovation & technology.
           </p>
           <div className='flex'>
             <a href="https://www.linkedin.com/in/javadalip/" target="_blank" rel="noopener noreferrer" className="mr-4 hover:text-gray-400">
