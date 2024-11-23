@@ -62,7 +62,7 @@ const Skills = () => {
           <p className="text-2xl inline border-b-4 hover:text-gray-400 font-bold">
             Skills
           </p>
-          <p className="mt-2">These are technologies I've worked with</p>
+          <p className="mt-2">Technologies I’ve explored</p>
         </div>
         <Marquee
           speed={80}
