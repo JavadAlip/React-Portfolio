@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
           <h1 className='font-bold text-6xl text-gray-400'>Javad Ali</h1>
           <h2 className='font-bold text-6xl mb-4'>MERN Stack Developer</h2>
           <p className='mb-4 max-w-[725px]'>
-          A skilled full-stack developer with expertise in Node.js & React, dedicated to delivering robust, high-quality solutions that are driven by a passion for innovation & technology.
+          A self-taught full-stack developer focused on delivering robust and high-quality solutions, committed to innovation and technology. Enthusiastic about building impactful applications.
           </p>
           <div className='flex'>
             <a href="https://www.linkedin.com/in/javadalip/" target="_blank" rel="noopener noreferrer" className="mr-4 hover:text-gray-400">
@@ -23,9 +23,9 @@ const Home = () => {
             <a href="https://www.instagram.com/javaaad.ali/" target="_blank" rel="noopener noreferrer" className="mr-4 hover:text-gray-400">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href="https://twitter.com/JavadALIp" target="_blank" rel="noopener noreferrer" className="mr-4 hover:text-gray-400">
+            {/* <a href="https://twitter.com/JavadALIp" target="_blank" rel="noopener noreferrer" className="mr-4 hover:text-gray-400">
               <FontAwesomeIcon icon={faXTwitter} size="2x" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
