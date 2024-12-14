@@ -106,16 +106,16 @@ const Home = () => {
       name="home"
       className="w-full min-h-screen flex items-center justify-center bg-black"
     >
-      <div className="max-w-[1000px] w-full px-8 flex flex-col justify-center h-full relative z-10">
+      <div className="max-w-[1000px] w-full px-8 flex flex-col justify-center h-full leading-snug relative z-10">
         <div className="mt-auto md:mt-0">
-          <p className="text-4xl gradient-text-animation font-space">Hi, I am</p>
-          <h1 className="font-bold mb-4 text-6xl gradient-text-animation font-space">
+          <p className="text-[18px]  gradient-text-animation font-space">Hi, I am</p>
+          <h1 className="font-semibold text-[50px] gradient-text-animation font-space">
             Javad Ali
           </h1>
-          <h2 className="font-bold text-6xl mb-4 gradient-text-animation font-space">
+          <h2 className="font-bold text-[50px] gradient-text-animation font-space">
             MERN Stack Developer
           </h2>
-          <p className="mb-2 max-w-[725px] gradient-text-animation text-[18px] font-space">
+          <p className="mb-2 gradient-text-animation text-[18px] font-space">
             A self-taught full-stack developer focused on delivering robust and
             high-quality solutions, committed to innovation and technology.
             Enthusiastic about building impactful applications.
