@@ -1,12 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-/* font-family: 'Poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+font-family: 'Poppins', sans-serif; */
 @layer base{
-    body{
+    /* body{
         @apply font-[Poppins]
-    };
+    }; */
     li{
        @apply px-6
     } 
@@ -15,5 +15,35 @@
       } 
 .transition-bg {
     transition: background-color 0.3s ease; 
+  }
+}
+
+/* CSS Code */
+.gradient-text-animation {
+  background: linear-gradient(100deg,white, #9CA3AF, white, #9CA3AF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% auto;
+  animation: monochrome-gradient-reveal 3s linear infinite;
+}
+
+.gradient-icon {
+  background: linear-gradient(90deg, white, #444547, white, #444547, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-size: 300% auto;
+  animation: monochrome-gradient-reveal 3s linear infinite;
+}
+
+@keyframes monochrome-gradient-reveal {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
