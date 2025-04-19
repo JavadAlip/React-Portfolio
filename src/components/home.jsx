@@ -18,9 +18,10 @@ const Home = () => {
             Full Stack Developer 
           </h2>
           <p className="mb-2 gradient-text-animation text-[18px] font-space">
-            A self-taught full-stack developer specializing in the MERN stack,
-            focused on delivering robust and high-quality solutions. Committed to
-            innovation, technology, and building impactful digital experiences.
+          A self-taught full-stack developer with expertise in the MERN stack, 
+          dedicated to crafting robust, scalable, and high-quality solutions.
+          Passionate about innovation, modern technology, and building meaningful 
+          digital experiences.
           </p>
           <div className="flex">
             <a
