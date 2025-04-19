@@ -1,6 +1,6 @@
 import React from 'react';
 const Contact = () => {
-    const emailAddress = 'javadalipp911@gmail.com';
+    const emailAddress = 'javadalidev@gmail.com';
     return (
         <div name='contact' className='w-full bg-black h-[200px] sm:mt-0'>
             <div className='max-w-[1000px] mx-auto flex flex-col h-full w-full px-8 justify-center'>
