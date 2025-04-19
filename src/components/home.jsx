@@ -15,12 +15,12 @@ const Home = () => {
             Javad Ali
           </h1>
           <h2 className="font-bold text-[50px] gradient-text-animation font-space">
-            Full Stack Developer
+            Full Stack Developer 
           </h2>
           <p className="mb-2 gradient-text-animation text-[18px] font-space">
-            A self-taught full-stack developer focused on delivering robust and
-            high-quality solutions, committed to innovation and technology.
-            Enthusiastic about building impactful applications.
+            A self-taught full-stack developer specializing in the MERN stack,
+            focused on delivering robust and high-quality solutions. Committed to
+            innovation, technology, and building impactful digital experiences.
           </p>
           <div className="flex">
             <a
