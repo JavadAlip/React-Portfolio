@@ -15,7 +15,7 @@ const Home = () => {
             Javad Ali
           </h1>
           <h2 className="font-bold text-[50px] gradient-text-animation font-space">
-            MERN Stack Developer
+            Full Stack Developer
           </h2>
           <p className="mb-2 gradient-text-animation text-[18px] font-space">
             A self-taught full-stack developer focused on delivering robust and
