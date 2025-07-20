@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 
 
+
 const projects = [
     {
         name: "MediPlus",
